@@ -1,0 +1,24 @@
+.border-round {
+    border-radius: 3px solid #e7e7e7;
+}
+
+
+
+
+
+/*form responsive*/
+ /* Styles for small screens */
+ @media (max-width: 576px) {
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+/* Styles for medium and larger screens */
+@media (min-width: 576px) {
+    .col-md-6 {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+}
